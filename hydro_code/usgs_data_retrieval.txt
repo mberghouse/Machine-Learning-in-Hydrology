@@ -1,0 +1,12 @@
+How to download and process USGS data from the REST web services
+
+https://waterservices.usgs.gov/rest
+
+Select your data using one of the products from that hyperlink
+Generate the URL for your data then run the generated URL
+Copy the URL of the new tab that pops up
+Enter the following command into terminal: curl “full_data_URL”--output filename.ext
+
+To get the site data (lat and long), you can just change the data URL in the correct area to “site”
+
+Example coming soon.
