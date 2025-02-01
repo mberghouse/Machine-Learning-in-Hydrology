@@ -10,14 +10,20 @@ This repository contains code and data for the UNR class GEOL - 701T (Applicatio
     - `hw2_help.ipynb`: Data ingestion, cleaning, transformation, and modeling workflow.
     - `USGS_NWIS_data_retrieval.ipynb`: Script to collect hydrological data from the USGS NWIS web service using REST API calls.
 
-- **ML_help/**  
-  - Contains helper files and placeholders for machine learning experiments.
-
 - **Matlab_scripts/**  
-  - MATLAB examples (e.g., `gphs_tableCreation.m`) demonstrating table creation and data handling in MATLAB.
+  - MATLAB examples demonstrating table creation and data handling, the R2 metric, and decision trees .
 
-- **data/** (if available)  
-  - Contains raw data files used for streamflow and water quality analysis. Some scripts automatically download this data from external sources.
+- **data/**
+  - Contains raw data files used for groundwater, lake, streamflow and water quality analysis.
+ 
+- **homework/**
+  - Contains homework assignments that were used in the class.
+
+- **lectures/**
+  - Contains the lectures that were given in the class.
+ 
+- **papers/**
+  - Repository of useful papers for machine learning in hydrology.
 
 ## Installation
 
@@ -88,6 +94,7 @@ This repository is provided for educational purposes. There is no formal license
 
 ## Acknowledgements
 
+- Professor Lazaro Perez for his work in co-developing and co-teaching the class
 - Materials for GEOL - 701T: Applications of Machine Learning in Hydrology at UNR.
 - USGS NWIS for providing accessible hydrological data.
 - The numerous open-source libraries and tools (numpy, pandas, scikit-learn, matplotlib, etc.) utilized throughout the repository.
