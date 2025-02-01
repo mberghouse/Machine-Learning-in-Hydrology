@@ -9,7 +9,6 @@ This repository contains code and data for the UNR class GEOL - 701T (Applicatio
   - Example:  
     - `hw2_help.ipynb`: Data ingestion, cleaning, transformation, and modeling workflow.
     - `USGS_NWIS_data_retrieval.ipynb`: Script to collect hydrological data from the USGS NWIS web service using REST API calls.
-  - Text files such as `usgs_data_retrieval.txt` that provide instructions on retrieving data directly from USGS using `curl`.
 
 - **ML_help/**  
   - Contains helper files and placeholders for machine learning experiments.
